@@ -19,7 +19,7 @@ class Hero{
                 tipoDeAtaque = "artes marciais";
                 break
             case "ninja":
-                tipoDeAtaque = "shuriken"
+                tipoDeAtaque = "shuriken";
                 break        
             default:
                 console.log("Opção inválida!")
@@ -30,12 +30,12 @@ class Hero{
     }
 }
 
-let heroOne = new Hero("Mago Elétrico", 1500, "mago")
-let heroTwo = new Hero("One Piece", 45, "guerreiro")
-let heroThree = new Hero("Benkei", 75, "monge")
-let heroFour = new Hero("Hattori Hanzo", 90, "ninja")
+let heroOne = new Hero("Mago Elétrico", 1500, "mago");
+let heroTwo = new Hero("One Piece", 45, "guerreiro");
+let heroThree = new Hero("Benkei", 75, "monge");
+let heroFour = new Hero("Hattori Hanzo", 90, "ninja");
 
-heroOne.atacar()
-heroTwo.atacar()
-heroThree.atacar()
-heroFour.atacar()
+heroOne.atacar();
+heroTwo.atacar();
+heroThree.atacar();
+heroFour.atacar();
